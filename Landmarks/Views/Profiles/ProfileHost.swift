@@ -1,10 +1,3 @@
-//
-//  ProfileHost.swift
-//  Landmarks
-//
-//  Created by James Fisher on 5/2/22.
-//
-
 import SwiftUI
 
 struct ProfileHost: View {
