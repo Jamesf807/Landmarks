@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		41011825282206C400278D3D /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41011824282206C400278D3D /* ProfileEditor.swift */; };
+		41ABD8AE282244C400D165D8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ABD8AD282244C400D165D8 /* Category.swift */; };
+		41ABD8B228224C3600D165D8 /* lunchMoneyCategoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = 41ABD8B128224C3600D165D8 /* lunchMoneyCategoryData.json */; };
+		41ABD8B42822588E00D165D8 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ABD8B32822588E00D165D8 /* Tags.swift */; };
+		41ABD8BB2822591600D165D8 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ABD8BA2822591600D165D8 /* Transactions.swift */; };
+		41ABD8BF2822627700D165D8 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ABD8BE2822627700D165D8 /* Expenses.swift */; };
+		41ABD8C1282264FB00D165D8 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ABD8C0282264FB00D165D8 /* Budget.swift */; };
+		41ABD8C3282265A900D165D8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ABD8C2282265A900D165D8 /* Data.swift */; };
+		41ABD8C5282265EA00D165D8 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ABD8C4282265EA00D165D8 /* Assets.swift */; };
+		41ABD8C72822665A00D165D8 /* PlaidAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ABD8C62822665A00D165D8 /* PlaidAccount.swift */; };
+		41ABD8C9282266CD00D165D8 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ABD8C8282266CD00D165D8 /* Crypto.swift */; };
 		41F919C0281F6EE700F43D65 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F919BF281F6EE700F43D65 /* LandmarksApp.swift */; };
 		41F919C2281F6EE700F43D65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F919C1281F6EE700F43D65 /* ContentView.swift */; };
 		41F919C4281F6EE900F43D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F919C3281F6EE900F43D65 /* Assets.xcassets */; };
@@ -63,6 +73,16 @@
 
 /* Begin PBXFileReference section */
 		41011824282206C400278D3D /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		41ABD8AD282244C400D165D8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		41ABD8B128224C3600D165D8 /* lunchMoneyCategoryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lunchMoneyCategoryData.json; sourceTree = "<group>"; };
+		41ABD8B32822588E00D165D8 /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		41ABD8BA2822591600D165D8 /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		41ABD8BE2822627700D165D8 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		41ABD8C0282264FB00D165D8 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		41ABD8C2282265A900D165D8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		41ABD8C4282265EA00D165D8 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		41ABD8C62822665A00D165D8 /* PlaidAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidAccount.swift; sourceTree = "<group>"; };
+		41ABD8C8282266CD00D165D8 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		41F919BC281F6EE700F43D65 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F919BF281F6EE700F43D65 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		41F919C1281F6EE700F43D65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +147,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41ABD8B7282258D400D165D8 /* Lunchmoney Models */ = {
+			isa = PBXGroup;
+			children = (
+				41ABD8AD282244C400D165D8 /* Category.swift */,
+				41ABD8B32822588E00D165D8 /* Tags.swift */,
+				41ABD8BA2822591600D165D8 /* Transactions.swift */,
+				41ABD8BE2822627700D165D8 /* Expenses.swift */,
+				41ABD8C0282264FB00D165D8 /* Budget.swift */,
+				41ABD8C2282265A900D165D8 /* Data.swift */,
+				41ABD8C4282265EA00D165D8 /* Assets.swift */,
+				41ABD8C62822665A00D165D8 /* PlaidAccount.swift */,
+				41ABD8C8282266CD00D165D8 /* Crypto.swift */,
+			);
+			path = "Lunchmoney Models";
+			sourceTree = "<group>";
+		};
 		41F919B3281F6EE700F43D65 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +242,7 @@
 				41F919F5281F7ED000F43D65 /* ModelData.swift */,
 				41F91A0E2820C5F000F43D65 /* Profile.swift */,
 				41F91A222820CC4700F43D65 /* Hike.swift */,
+				41ABD8B7282258D400D165D8 /* Lunchmoney Models */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -213,6 +250,7 @@
 		41F919FE281F83DA00F43D65 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				41ABD8B128224C3600D165D8 /* lunchMoneyCategoryData.json */,
 				41F91A202820CBFF00F43D65 /* hikeData.json */,
 				41F91A05281F93F500F43D65 /* landmarkData.json */,
 			);
@@ -387,6 +425,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41ABD8B228224C3600D165D8 /* lunchMoneyCategoryData.json in Resources */,
 				41F91A212820CBFF00F43D65 /* hikeData.json in Resources */,
 				41F919C7281F6EE900F43D65 /* Preview Assets.xcassets in Resources */,
 				41F919C4281F6EE900F43D65 /* Assets.xcassets in Resources */,
@@ -419,13 +458,18 @@
 				41F91A162820C82000F43D65 /* HexagonParameters.swift in Sources */,
 				41F919C2281F6EE700F43D65 /* ContentView.swift in Sources */,
 				41F919EE281F784A00F43D65 /* MapView.swift in Sources */,
+				41ABD8C72822665A00D165D8 /* PlaidAccount.swift in Sources */,
 				41F91A2A2820CC9900F43D65 /* HikeGraph.swift in Sources */,
 				41F91A232820CC4700F43D65 /* Hike.swift in Sources */,
+				41ABD8AE282244C400D165D8 /* Category.swift in Sources */,
 				41F91A2F2820D1D600F43D65 /* CategoryHome.swift in Sources */,
+				41ABD8C5282265EA00D165D8 /* Assets.swift in Sources */,
 				41F919C0281F6EE700F43D65 /* LandmarksApp.swift in Sources */,
+				41ABD8BF2822627700D165D8 /* Expenses.swift in Sources */,
 				41F91A332820D85700F43D65 /* CategoryItem.swift in Sources */,
 				41F91A2B2820CC9900F43D65 /* HikeDetail.swift in Sources */,
 				41F91A122820C67F00F43D65 /* ProfileHost.swift in Sources */,
+				41ABD8C3282265A900D165D8 /* Data.swift in Sources */,
 				41F91A1C2820CA3E00F43D65 /* RotatedBadgeSymbol.swift in Sources */,
 				41F91A1A2820C99400F43D65 /* BadgeSymbol.swift in Sources */,
 				41F91A312820D4FD00F43D65 /* CategoryRow.swift in Sources */,
@@ -433,13 +477,17 @@
 				41F91A0A282086D400F43D65 /* FavoriteButton.swift in Sources */,
 				41F91A04281F920B00F43D65 /* LandmarkList.swift in Sources */,
 				41F91A08281F96DE00F43D65 /* LandmarkDetail.swift in Sources */,
+				41ABD8C1282264FB00D165D8 /* Budget.swift in Sources */,
 				41011825282206C400278D3D /* ProfileEditor.swift in Sources */,
+				41ABD8BB2822591600D165D8 /* Transactions.swift in Sources */,
 				41F91A2C2820CC9900F43D65 /* HikeView.swift in Sources */,
 				41F919EC281F768F00F43D65 /* CircleImage.swift in Sources */,
+				41ABD8B42822588E00D165D8 /* Tags.swift in Sources */,
 				41F919F4281F7D2300F43D65 /* Landmark.swift in Sources */,
 				41F91A0F2820C5F000F43D65 /* Profile.swift in Sources */,
 				41F91A352820E27700F43D65 /* HikeBadge.swift in Sources */,
 				41F91A02281F88A500F43D65 /* LandmarkRow.swift in Sources */,
+				41ABD8C9282266CD00D165D8 /* Crypto.swift in Sources */,
 				41F919F6281F7ED000F43D65 /* ModelData.swift in Sources */,
 				41F91A182820C89900F43D65 /* BadgeBackground.swift in Sources */,
 				41F91A142820C6A400F43D65 /* ProfileSummary.swift in Sources */,
